@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    padding: 20px;
+    flex-direction: column; 
+}
+
+.logo1 img {
+    max-width: 270px;
+    padding: 0px;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+.topnav1  {
+    float: right;
+    display: block;
+    color: black;
+    padding: 0px 420px;
+    margin-top: -14vh;
+    margin-left: 47vh;
+     
+}
+
+.topnav1 input {
+    height: 3.5vh;
+    width: 50vh;
+    font-size: 1.3vh;
+    font-family: inherit;
+    text-align: right;
+    color: black;
+    outline: 1px solid black;;
+    padding-left: 6px;
+    
+    
+}
+.sesiq1 {
+    display: inline;
+    padding: 17px;
+    margin-left: 167vh;
+    margin-top: -65px;
+ justify-content: space-between;
+}
+.sesiq1 a{
+    display: inline;
+    margin-top: -30px;
+   margin-bottom: 80px; 
+    color: black;
+    font-family: helvetica, sans-serif;  
+    font-size: 1.65vh; 
+    position: relative;
+    transition: 0.3s;
+    text-decoration: none;
+    margin: 0px 7px;
+    padding: 0px 0px;
+    
+}
+
+.signin{
+    margin-left: 17vh;
+    margin-top: 17vh;
+    font-family: inherit;
+    font-size:2.3vh;
+    vertical-align: baseline;
+}
+
+
+.base__border{
+ margin-top: 5vh;
+box-sizing: border-box;
+margin-left: 17vh;
+padding: 0;
+display: inline-block;
+
+}
+
+.base__border1{
+    margin-top: 6vh;
+    box-sizing: border-box;
+    margin-left: 17vh;
+    padding: 0;
+    display: inline-block;
+}
+
+h3{
+
+    margin-top: 4vh;
+    margin-left: 17vh;
+    font-size: 12px;
+    font:inherit;
+}
+
+.zapochni  {
+    float: right;
+    display: block;
+    color: black;
+    padding: 0px 420px;
+    margin-top: 5vh;
+    margin-left: -39.5vh;
+    font: helvetica;
+}
+
+.zapochni input {
+    height: 3.5vh;
+    width: 50vh;
+    font-size: 1.3vh;
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    outline: 1px solid black;;
+    padding-left: 6px;
+}
